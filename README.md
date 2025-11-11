@@ -1,64 +1,73 @@
 # Agentic AI & LangGraph Learning Journey
 
-*A structured progression through modern agent systems, based on the CampusX LangGraph course.*
+*A structured progression through modern agent systems, inspired by the CampusX LangGraph course.*
 
 ---
 
 ## 📌 Overview
 
-This repository captures my step-by-step learning process as I explore **Agentic AI**, **LangGraph**, and the architecture behind modern AI systems. The goal isn’t just to follow tutorials, but to understand how real, production-grade agents are built — from simple workflows to stateful, event-driven systems.
+This repository documents a hands-on exploration of **Agentic AI**, **LangGraph**, and the system-level architecture behind modern AI workflows. The focus is on understanding how reliable, stateful, event-driven agents are engineered — not just running tutorials, but grasping how production-grade patterns fit together.
 
 ---
 
 ## ✅ Learning Roadmap
 
-This repo follows the progression of the course:
+This repository follows the lecture flow and expands on the concepts introduced along the way.
 
 ### **Lecture 1 – Introduction to Generative AI vs Agentic AI**
 
-* Understanding why static prompt → response systems aren’t enough
-* The role of goals, tools, memory, and decision-making
-* Real-world scenarios where agents outperform simple LLMs
+* Why static prompt→response systems fall short
+* Goals, tools, memory, and decisions
+* Where agentic systems outperform plain LLM calls
 
 ### **Lecture 2 – What is Agentic AI?**
 
-* Agents as systems with autonomy and action paths
-* Memory, tools, goals, and feedback loops
-* How LangGraph structures agent behavior
+* Agents as autonomous, goal-directed systems
+* Tool use, memory, feedback loops
+* How LangGraph brings structure to agent behavior
 
 ### **Lecture 3 – Workflows vs Agents**
 
-* Workflows = predefined paths
-* Agents = dynamic decisions based on state + goals
-* Limitations of LangChain
-* Event-driven design, state objects, fault tolerance
+* Workflows = fixed paths
+* Agents = dynamic, adaptive control flows
+* LangChain limitations
+* Event-driven execution
 * Retry, recovery, checkpointing
-* Subgraphs and modular agent design
+* Subgraphs and modular design
 
 ### **Lecture 4 – LangGraph Core Concepts**
 
-* Nodes, edges, and graph execution
+* Nodes, edges, and directed execution
 * StateGraph vs MessageGraph
-* How state is passed and mutated
+* State mutation rules
 * Checkpointing and resumability
-* Human-in-the-loop support
-* Building the mental model of a graph-based agent
+* Human-in-the-loop pauses
+* The mental model of graph-based agents
 
-*(Lectures 5+ will be added as I progress.)*
+### **Lecture 5 – Sequential Workflows**
+
+* Designing linear, deterministic flows
+* Passing updated state step-by-step
+* Multi-step LLM pipelines
+* Prompt chaining using LangGraph
+* Building structured, predictable logic
+
+*(More lectures will be added as the journey continues.)*
 
 ---
 
 ## 🧠 Why This Matters
 
-Agentic AI is becoming central to building real-world apps like:
+Agentic AI is a foundational layer behind emerging real-world applications such as:
 
 * automation engines
 * research assistants
-* voice agents
-* tool-using systems
-* multi-agent workflows
+* structured tool users
+* voice and multimodal agents
+* multi-agent orchestration
 
-Understanding these architectural patterns makes it easier to build systems that are:
+Understanding these architectural patterns enables building AI systems that are:
+
 ✅ reliable
 ✅ stateful
 ✅ fault-tolerant
@@ -67,32 +76,9 @@ Understanding these architectural patterns makes it easier to build systems that
 
 ---
 
-## 📂 Repository Structure
-
-```
-/notes/           → Summaries of each lecture
-/code/            → Practice scripts & experiments
-/projects/        → Mini agent demos as I progress
-README.md         → You are here
-```
-
----
-
-## 🔄 Progress
-
-✅ Lecture 1
-✅ Lecture 2
-✅ Lecture 3
-✅ Lecture 4
-⬜ Lecture 5
-⬜ Lecture 6
-⬜ More coming…
-
----
-
 ## 🤝 Connect
 
-This repo is a living record of my learning.
-If you're working on agentic workflows, LangGraph, or AI infrastructure, feel free to reach out or share insights.
+This repository is a running log of the exploration, experiments, and incremental progress.
+If you're working on agentic systems, LangGraph, or AI infrastructure, feel free to connect or share your perspective.
 
 ---
