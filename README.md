@@ -1,3 +1,5 @@
+---
+
 # Agentic AI & LangGraph Learning Journey
 
 *A structured progression through modern agent systems, inspired by the CampusX LangGraph course.*
@@ -20,11 +22,15 @@ This repository follows the lecture flow and expands on the concepts introduced 
 * Goals, tools, memory, and decisions
 * Where agentic systems outperform plain LLM calls
 
+---
+
 ### **Lecture 2 – What is Agentic AI?**
 
 * Agents as autonomous, goal-directed systems
 * Tool use, memory, feedback loops
 * How LangGraph brings structure to agent behavior
+
+---
 
 ### **Lecture 3 – Workflows vs Agents**
 
@@ -35,6 +41,8 @@ This repository follows the lecture flow and expands on the concepts introduced 
 * Retry, recovery, checkpointing
 * Subgraphs and modular design
 
+---
+
 ### **Lecture 4 – LangGraph Core Concepts**
 
 * Nodes, edges, and directed execution
@@ -44,6 +52,8 @@ This repository follows the lecture flow and expands on the concepts introduced 
 * Human-in-the-loop pauses
 * The mental model of graph-based agents
 
+---
+
 ### **Lecture 5 – Sequential Workflows**
 
 * Designing linear, deterministic flows
@@ -52,7 +62,15 @@ This repository follows the lecture flow and expands on the concepts introduced 
 * Prompt chaining using LangGraph
 * Building structured, predictable logic
 
-*(More lectures will be added as the journey continues.)*
+---
+
+### **Lecture 6 – Parallel Graph Execution & Structured Evaluation**
+
+* Implementing multiple evaluation nodes in parallel
+* Defining structured schemas for LLM output (Pydantic + LangGraph)
+* Combining results using reducers (`operator.add`)
+* Computing aggregate scores and feedback
+* Building a consistent, multi-phase UPSC essay evaluation workflow
 
 ---
 
