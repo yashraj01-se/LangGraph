@@ -1,9 +1,7 @@
 ---
-
 # Agentic AI & LangGraph Learning Journey
 
 *A structured progression through modern agent systems, inspired by the CampusX LangGraph course.*
-
 ---
 
 ## 📌 Overview
