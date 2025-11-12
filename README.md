@@ -1,9 +1,3 @@
----
-# Agentic AI & LangGraph Learning Journey
-
-*A structured progression through modern agent systems, inspired by the CampusX LangGraph course.*
----
-
 ## 📌 Overview
 
 This repository documents a hands-on exploration of **Agentic AI**, **LangGraph**, and the system-level architecture behind modern AI workflows. The focus is on understanding how reliable, stateful, event-driven agents are engineered — not just running tutorials, but grasping how production-grade patterns fit together.
