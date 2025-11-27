@@ -129,6 +129,17 @@ This repository follows the lecture flow and expands on the concepts introduced 
 
 ---
 
+### **Lecture 14 – Multi-Conversation Chatbot & Persistent Memory**
+
+* Implementing multiple chat threads with unique IDs (like ChatGPT sidebar).
+* Loading & restoring conversation history using LangGraph state.
+* Auto-generating chat titles using LLMs from the first user message.
+* Handling Streamlit key conflicts with unique key= values in loops.
+* Storing and managing persistent chat history via st.session_state.
+* Combining streaming responses with saved memory for smooth UX.
+
+---
+
 ## 🧠 Why This Matters
 
 Agentic AI powers many emerging real-world applications:
