@@ -99,6 +99,36 @@ This repository follows the lecture flow and expands on the concepts introduced 
 
 ---
 
+### **Lecture 11 – Persistence & Long-Term Memory**
+
+* Enabling long-lived agent sessions
+* Using SQLite-based checkpointers, file checkpointers
+* Storing and restoring entire graph state
+* Session IDs & thread-based memory
+* How persistence powers production chatbots
+
+---
+
+### **Lecture 12 – UI Development with Streamlit**
+
+* Building a front-end for LangGraph agents
+* Integrating workflow execution with Streamlit
+* Real-time interaction, chat UI design
+* Passing session state from UI → Graph
+* Deploying lightweight agent-based applications
+
+---
+
+### **Lecture 13 – Streaming Responses in ChatBots**
+
+* Token-by-token streaming from LLMs
+* Real-time rendering in Streamlit
+* Mixing streaming with persistent memory
+* Improving UX through incremental output
+* Designing responsive conversational agents
+
+---
+
 ## 🧠 Why This Matters
 
 Agentic AI powers many emerging real-world applications:
