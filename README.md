@@ -140,6 +140,17 @@ This repository follows the lecture flow and expands on the concepts introduced 
 
 ---
 
+### **Lecture 15 – SQLite Memory Persistence & Multi-Thread Restoration**
+
+* Integrating SQLite Checkpointing with LangGraph
+* Using thread_id to Separate Multiple Conversations
+* Loading Saved Conversations on App Startup
+* Restoring Message History from Database
+* Normalizing Retrieved Data for Frontend Stability
+* Persistent Multi-Chat System Without Manual SQL
+
+---
+
 ## 🧠 Why This Matters
 
 Agentic AI powers many emerging real-world applications:
