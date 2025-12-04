@@ -151,13 +151,14 @@ This repository follows the lecture flow and expands on the concepts introduced 
 
 ---
 
-### **Lecture 16 – LangGraph Crash Course (2 Hours)**
+### **Lecture 16 – LangSmith Crash Course (2 Hours)**
 
-* Deep dive into real-world agent patterns using LangGraph
-* Understanding Pregel execution, state transitions & concurrency
-* Building practical agent workflows end-to-end
-* Using subgraphs, custom nodes & advanced routing
-* Debugging, visualization & runtime tracing
+* How LangSmith observes, debugs, and evaluates LLM workflows
+* Tracing every step inside LangGraph + LLM calls
+* Logging inputs, outputs, tokens, latency & execution flow
+* Understanding spans, traces, metadata & run hierarchy
+* Using LangSmith to find bottlenecks, errors & model issues
+* Why observability is essential for production-grade agents
 
 ---
 
