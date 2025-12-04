@@ -151,6 +151,26 @@ This repository follows the lecture flow and expands on the concepts introduced 
 
 ---
 
+### **Lecture 16 – LangGraph Crash Course (2 Hours)**
+
+* Deep dive into real-world agent patterns using LangGraph
+* Understanding Pregel execution, state transitions & concurrency
+* Building practical agent workflows end-to-end
+* Using subgraphs, custom nodes & advanced routing
+* Debugging, visualization & runtime tracing
+
+---
+
+### **Lecture 17 – Integrating LangSmith for Monitoring & Tracing**
+
+* Connecting existing LangGraph chatbot to LangSmith
+* Automatic capture of traces, LLM calls & node-level logs
+* Visualizing graph execution flow in LangSmith UI
+* Adding metadata, run names & debugging context
+* Using LangSmith to optimize prompts, reduce costs & detect failures
+
+---
+
 ## 🧠 Why This Matters
 
 Agentic AI powers many emerging real-world applications:
