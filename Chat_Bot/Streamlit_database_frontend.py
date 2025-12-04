@@ -1,8 +1,15 @@
+import os
 import streamlit as st
 from Langgraph_database_backend import workflow,retreive_all_threads
 from langchain_core.messages import HumanMessage , BaseMessage
 from langchain_groq import ChatGroq
 import uuid
+from dotenv import load_dotenv
+
+load_dotenv('langsmith.env')
+
+# ---------- Setup ----------
+os.environ['LANGCHAIN_PROJECT'] = 'Chatbot_LangGraph'
 
 groq = ChatGroq(model="llama-3.1-8b-instant")
 
@@ -31,8 +38,15 @@ def add_thread(thread_id):
     })
 
 def load_coversation(thread_id):
-    state = workflow.get_state(config={'configurable': {'thread_id': thread_id}})
-    return state.values.get('messages', [])
+    state = workflow.get_state(
+        config={
+            "configurable": {"thread_id": thread_id},
+            "metadata": {"thread_id": thread_id},
+            "run_name": "chat_turn",
+        }
+    )
+    return state.values.get("messages", [])
+
 
 
 
@@ -125,10 +139,15 @@ if user_input:
 
     def stream_response():
         for message_chunk, metadata in workflow.stream(
-            {"messages":[HumanMessage(content=user_input)]},
-            config={'configurable':{'thread_id':st.session_state['thread_id']}},
-            stream_mode='messages'
-        ):
+    {"messages": [HumanMessage(content=user_input)]},
+    config={
+        "configurable": {"thread_id": st.session_state["thread_id"]},
+        "metadata": {"thread_id": st.session_state["thread_id"]},
+        "run_name": "chat_turn",
+    },
+    stream_mode="messages"
+):
+
            
             yield message_chunk.content
 
